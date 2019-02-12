@@ -221,7 +221,7 @@ export class DefaultTabBar extends React.PureComponent<PropsType, StateType> {
           }
         </div>
       </Gesture>
-      {showNext && <div className={`${prefixCls}-nextpage`}></div>}
+      {showNext && <div className={`${prefixCls}-nextpage`}>123</div>}
     </div>;
   }
 }
